@@ -242,7 +242,7 @@ const fetchStats = async (
     }, 0);
 
   stats.rank = calculateRank({
-    all_commits: include_all_commits,
+    all_commits: true,
     commits: stats.totalCommits,
     prs: stats.totalPRs,
     issues: stats.totalIssues,
